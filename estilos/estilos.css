@@ -11,6 +11,12 @@
     grid-template-rows: repeat(1,1fr);
 }
 
+.contenedor_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .foto{
     border-radius: 200px;
     width: 400px;
@@ -19,7 +25,6 @@
     border: 5px solid rgb(6, 116, 189);
     object-fit: cover;
     display: grid;
-    margin-left: 300px;
 }
 
 .title{
@@ -81,4 +86,45 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: none;
+        padding: none;
+        box-sizing: border-box;
+       }
+   
+    .contenedor_header{
+    display: flex !important;
+    flex-direction: row;
+    gap: 20px;
+   }
+
+   .foto{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+   }
+
+   .asidee{
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+   .estilo_aside{
+    margin: 0 !important;
+   }
+ 
+   h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   hr{
+    margin-left: 10%;
+    margin-top: 2%;
+   }
 }
