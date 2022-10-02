@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
 
 *{
     margin: 0;
@@ -5,16 +7,18 @@
     box-sizing: border-box;
 }
 
-.contenedor_header{
-    display: grid;
-    grid-template-columns: repeat(2,0.5fr);
-    grid-template-rows: repeat(1,1fr);
+/*Css aplicado en pagina de Inicio*/
+
+
+html{
+    background-color: rgb(22, 22, 22);
 }
 
-.contenedor_foto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contenedor{
+ display: flex;
+ justify-content: center;
+ margin-top: 7%;
+ gap: 20px;
 }
 
 .foto{
@@ -22,71 +26,151 @@
     width: 400px;
     height: 400px;
     cursor: pointer;
-    border: 5px solid rgb(6, 116, 189);
+    border: 15px solid rgb(58, 58, 58);
     object-fit: cover;
     display: grid;
+}
+ 
+
+header{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+
+.contenedor_nav{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-top: 5%;
+}
+
+header a{
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+}
+
+.contenedor_logo{
+    display: flex;
+    gap: 10px;
+    margin: 1%;
+}
+
+.contenedor_logo p{
+    padding-top: 1.5%;
+    font-size: 20px;
+    color: white;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: white;
 }
 
 .title{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 200px;
+    gap: 10px;
+    margin-top: 5%;
 }
 
 h1{
-    font-size: 100px;
+    font-size: 70px;
+    color: white;
+}
+
+h2{
+    color: grey ;
+}
+
+p{
+    color: rgb(143, 143, 143);
 }
 
 h3{
     font-family: cursive;
-    color: cornflowerblue;
+    color: rgb(70, 70, 70);
 }
 
-.asidee{
-    display: grid;
-    grid-template-columns: repeat(2,0.5fr);
-    grid-template-rows: repeat(2,0.5fr);
-}
+h4{
+    color:white;
+    font-size: 20px;
 
-.estilo_aside{
-    margin-left: 300px;
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 hr{
-    width:75%;
+    width: 10%;
 }
 
-.contenedor_lista{
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     padding-top: 2%;
 }
 
-.estilo_aside2{
-    margin-top: 5%;
+button{
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    padding: 0.3rem;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-color: white;
 }
+
+button:hover{
+    background-color: rgb(0, 119, 255);
+    border-color: rgb(0, 119, 255);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.fa-solid{
+    color: white;
+}
+
+/*Css aplicado en pagina de Pefil*/
+
+.estilo_aside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+/*Css aplicado en pagina experiencia y educacion*/
 
 ul{
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
     gap: 20px;
 }
 
-.estilo_aside3{
-    grid-column-start: 2;
-}
+/*Css aplicado en pagina objetivo*/
 
 .estilo_aside4{
-    grid-column-start: 2;
-    padding-top: 5%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
     gap: 20px;
 }
+
+
 
 @media screen and (max-width: 576px) {
     *{
@@ -100,6 +184,10 @@ ul{
     flex-direction: row;
     gap: 20px;
    }
+
+.contenedor_foto{
+    margin: 0;
+}
 
    .foto{
     width: 180px;
