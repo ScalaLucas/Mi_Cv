@@ -105,8 +105,12 @@ h4{
 
 }
 
-hr{
+.hr-text{
     width: 10%;
+}
+
+hr{
+    margin-top: 2%;
 }
 
 .buttons{
@@ -133,9 +137,52 @@ button:hover{
     transition: 0.7s;
 }
 
+aside{
+margin-left: 1%;
+margin-top: 3%;
+}
+
+.contenedor_objects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 .fa-solid{
     color: white;
+    margin-top: 1%;
 }
+
+.zona1{
+    grid-column-start: 1;
+    margin-left: 2%;
+}
+
+.zona2{
+    grid-column-start: 2;
+    margin-left: 2%;
+}
+
+.footer_list{
+    color: rgb(143, 143, 143);
+    margin-top: 1%;
+}
+
+.contenedorlist{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contenedorlist2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedorlist a{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+}
+
 
 /*Css aplicado en pagina de Pefil*/
 
