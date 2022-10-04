@@ -594,5 +594,26 @@ input{
 width: 100%;
 }
 
+/*Mediaquery aplicado en pagina de Educacion*/
+
+.contenedor_educacion{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.contenedor_foto4{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.contenedor_lista2{
+    margin: 0;
+}
+
+
 
 }
