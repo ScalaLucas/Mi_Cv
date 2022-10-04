@@ -114,10 +114,7 @@ hr {
     margin-top: 10px;
 }
 
-.hr-contact {
-    border-color: rgb(94, 94, 94);
-    border-width: 1px;
-}
+
 
 .buttons {
     display: flex;
@@ -297,7 +294,12 @@ ul {
     margin-top: 12%;
 }
 
-/*Css aplicado en pagina objetivo*/
+/*Css aplicado en pagina contacto*/
+
+.hr-contact {
+    border-color: rgb(94, 94, 94);
+    border-width: 1px;
+}
 
 .section_contact {
     background-color: rgb(44, 44, 44);
@@ -430,11 +432,36 @@ input:focus {
 
 
 @media screen and (max-width: 576px) {
+/*MediaQuery General*/
+    
     * {
         margin: none;
         padding: none;
         box-sizing: border-box;
     }
+
+
+    .contenedor_nav{
+        margin-left: 7%;
+    }
+
+    .contenedor_nav > a{ 
+        font-size: 12px;
+    }
+
+    .contenedor_logo > p{
+        margin-top: 30%;
+        font-size: 12px;
+    }
+    
+    header{
+        display: flex;
+    }
+
+   
+
+
+    /*MediaQuery aplicado a Inicio*/
 
     .contenedor_header {
         display: flex;
@@ -483,4 +510,32 @@ input:focus {
         margin-left: 10%;
         margin-top: 2%;
     }
+}
+
+/*Mediaquery aplicado en pagina de contacto*/
+
+@media screen and (max-width: 576px) {
+    * {
+        margin: none;
+        padding: none;
+        box-sizing: border-box;
+    }
+  
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputs-boxes{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
 }
