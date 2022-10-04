@@ -444,7 +444,7 @@ input:focus {
     }
 
     .contenedor_nav{
-        margin-right: 1%;
+        margin-right: 5%;
         margin-top: 3%;
         padding: 0;
     }
@@ -458,8 +458,7 @@ input:focus {
     }
 
     .contenedor_logo > p{
-        margin-right: 60%;
-        margin-top: 8%;
+        display: none;
     }
     
     header{
@@ -569,6 +568,7 @@ input:focus {
 .section_contact{
     width: 100%;
    }
+
 
 
    hr{
