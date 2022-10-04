@@ -58,7 +58,7 @@ header a {
 
 .contenedor_logo > p{
     color: white;
-    padding-top: 4%;
+    padding-top: 5%;
 }
 
 
@@ -354,7 +354,8 @@ p {
 }
 
 p {
-    padding-top: 5px;
+    padding-top: 15px;
+    color: grey;
 }
 
 .div_message {
@@ -379,7 +380,7 @@ a {
 
 a {
     color: grey;
-    padding-top: 20px;
+    padding-top: 30px;
     text-decoration: none;
 }
 
