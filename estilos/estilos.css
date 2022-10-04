@@ -435,36 +435,33 @@ input:focus {
 /*MediaQuery General*/
     
     * {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
-    }
-
-    body{
         width: 100%;
     }
 
+    .contenedor_nav{
+        margin-right: 1%;
+        margin-top: 3%;
+        padding: 0;
+    }
 
     .contenedor_nav > a{ 
-        font-size: 12px;
+        font-size: 15px;
+    }
+
+    .contenedor_logo{
+        display: flex;
     }
 
     .contenedor_logo > p{
-        margin-top: 30%;
-        font-size: 12px;
+        margin-right: 60%;
+        margin-top: 8%;
     }
     
     header{
         display: flex;
-    }
-
-    .contenedorlist{
-        margin: none;
-        padding: none;
-    }
-
-    .contenedorlist > a{
-        font-size: 12px;
     }
 
     .contenedorlist2{
@@ -474,6 +471,31 @@ input:focus {
     }
     .contenedorlist2 > p{
         font-size: 12px;
+    }
+
+    .contenedorlist{
+        display: flex;
+        width: 20%;
+    }
+
+
+    .contenedorlist > a{
+        font-size: 12px;
+    }
+    
+    .contenedorlist2{
+        display: flex;
+        margin-left: 20%;
+    }
+
+    .contenedorlist2 > i{
+    display: flex;
+    justify-content: flex-end;
+    }
+
+    .contenedorlist2 > p{
+        display: flex;
+        justify-content: flex-start;
     }
 
     
@@ -543,31 +565,59 @@ input:focus {
     }
   
 .section_contact{
-    width: 90%;
+    width: 100%;
    }
 
-.mapa {
-   display: block;
-   
-}
 
-.mapa>iframe {
-   margin-left: 5%;
-}
-
+   hr{
+    margin: 0;
+   }
 
 .info{
         display: flex;
         flex-direction: column;
-      
-        
     }
 
-.inputs-boxes{
-        width: 600px;
-        display: flex;
-        flex-direction: column;
-    }
-    
+.div_location{
+    display: block;
+}
+
+.div_location > p{
+    display: block;;
+}
+
+.div_call{
+    display: block;
+}
+
+.div_call > p{
+    display: block;;
+}
+
+.div_message{
+    display: block;
+}
+
+.div_message > p{
+    display: block;
+}
+
+.div_call > a{
+    color: white;
+}
+
+.div_message > a{
+    color: white;
+}
+
+
+.contenedor_divs{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+width: 500px;
+}
 
 }
