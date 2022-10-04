@@ -92,10 +92,6 @@ h2 {
     color: grey;
 }
 
-p {
-    color: rgb(143, 143, 143);
-}
-
 h3 {
     font-family: cursive;
     color: rgb(70, 70, 70);
@@ -212,12 +208,13 @@ aside {
     gap: 20px;
     background-color: gray;
     border-radius: 10px;}
-    p{
-        color: white;
-    }
     h3{
         color: black;
     }
+
+.estilo_aside > p{
+    color: white;
+}    
 
 .hr-perfil{
     margin-top: 11.5%;
@@ -245,12 +242,13 @@ ul {
     gap: 20px;
     background-color: gray;
     border-radius: 10px;}
-    p{
-        color: white;
-    }
     h3{
         color: black;
     }
+
+ul > p{
+    color: white;
+}    
 
 
 .hr-exp{
@@ -465,15 +463,6 @@ input:focus {
         display: flex;
     }
 
-    .contenedorlist2{
-        width: 92%;
-        margin: none;
-        padding: none;
-    }
-    .contenedorlist2 > p{
-        font-size: 12px;
-    }
-
     .contenedorlist{
         display: flex;
         width: 20%;
@@ -486,22 +475,12 @@ input:focus {
     
     .contenedorlist2{
         display: flex;
-        margin-left: 20%;
-    }
-
-    .contenedorlist2 > i{
-    display: flex;
-    justify-content: flex-end;
     }
 
     .contenedorlist2 > p{
-        display: flex;
-        justify-content: flex-start;
+        font-size: 12px;
     }
 
-    
-
-   
 
 
     /*MediaQuery aplicado a Inicio*/
@@ -553,17 +532,10 @@ input:focus {
         margin-left: 10%;
         margin-top: 2%;
     }
-}
+
 
 /*Mediaquery aplicado en pagina de contacto*/
 
-@media screen and (max-width: 576px) {
-* {
-        margin: none;
-        padding: none;
-        box-sizing: border-box;
-        
-    }
   
 .section_contact{
     width: 100%;
@@ -619,7 +591,8 @@ input:focus {
 }
 
 input{
-width: 500px;
+width: 100%;
 }
+
 
 }
