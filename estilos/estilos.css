@@ -42,6 +42,7 @@ header {
     gap: 20px;
     justify-content: flex-end;
     padding-top: 5%;
+    margin-right: 1%;
 }
 
 header a {
@@ -110,7 +111,7 @@ h4 {
 }
 
 hr {
-    margin-top: 2%;
+    margin-top: 10px;
 }
 
 .hr-contact {
@@ -135,16 +136,15 @@ button {
     border-color: white;
 }
 
-button:hover {
-    background-color: rgb(0, 119, 255);
+button:focus {
     border-color: rgb(0, 119, 255);
     cursor: pointer;
-    transition: 0.7s;
+
 }
 
 aside {
     margin-left: 1%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .contenedor_objects {
@@ -192,24 +192,109 @@ aside {
 
 /*Css aplicado en pagina de Pefil*/
 
+.contenedor_perfil{
+    margin-top: 8%;
+    display: flex;
+    gap: 200px;
+}
+
+
+.contenedor_foto2{
+    display: flex;
+    margin-left: 15%;
+}
+
+
+
 .estilo_aside {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
     gap: 20px;
+    background-color: gray;
+    border-radius: 10px;}
+    p{
+        color: white;
+    }
+    h3{
+        color: black;
+    }
+
+.hr-perfil{
+    margin-top: 11.5%;
 }
 
-/*Css aplicado en pagina experiencia y educacion*/
+/*Css aplicado en pagina experiencia*/
+
+.contenedor_experiencia{
+    margin-top: 5%;
+    display: flex;
+    gap: 200px;
+}
+
+.contenedor_foto3{
+    display: flex;
+    margin-left: 15%;
+    padding-top: 3%;
+}
 
 ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
     gap: 20px;
+    background-color: gray;
+    border-radius: 10px;}
+    p{
+        color: white;
+    }
+    h3{
+        color: black;
+    }
+
+
+.hr-exp{
+    margin-top: 6%;
+}
+
+/*Css aplicado en pagina educacion*/
+
+.contenedor_educacion{
+    margin-top: 5%;
+    display: flex;
+    gap: 200px;
+}
+
+.contenedor_foto4{
+    display: flex;
+    margin-left: 15%;
+    padding-top: 3%;
+}
+
+.contenedor_lista2{
+    margin-top: 12%;
+    margin-left: 10%;
+    height: 350px;
+    background-color: gray;
+    border-radius: 10px;}
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+    }
+    p{
+        color: white;
+    }
+    h3{
+        color: black;
+    }
+
+.hr-edu{
+    margin-top: 12%;
 }
 
 /*Css aplicado en pagina objetivo*/
