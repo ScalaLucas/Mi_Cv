@@ -440,10 +440,10 @@ input:focus {
         box-sizing: border-box;
     }
 
-
-    .contenedor_nav{
-        margin-left: 7%;
+    body{
+        width: 100%;
     }
+
 
     .contenedor_nav > a{ 
         font-size: 12px;
@@ -457,6 +457,26 @@ input:focus {
     header{
         display: flex;
     }
+
+    .contenedorlist{
+        margin: none;
+        padding: none;
+    }
+
+    .contenedorlist > a{
+        font-size: 12px;
+    }
+
+    .contenedorlist2{
+        width: 92%;
+        margin: none;
+        padding: none;
+    }
+    .contenedorlist2 > p{
+        font-size: 12px;
+    }
+
+    
 
    
 
@@ -515,26 +535,38 @@ input:focus {
 /*Mediaquery aplicado en pagina de contacto*/
 
 @media screen and (max-width: 576px) {
-    * {
+* {
         margin: none;
         padding: none;
         box-sizing: border-box;
+        
     }
   
+.section_contact{
+    width: 90%;
+   }
 
-    .info{
+.mapa {
+   display: block;
+   
+}
+
+.mapa>iframe {
+   margin-left: 5%;
+}
+
+
+.info{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+      
+        
     }
 
-    .inputs-boxes{
+.inputs-boxes{
         width: 600px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     
 
