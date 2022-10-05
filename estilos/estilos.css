@@ -486,6 +486,13 @@ input:focus {
 
     /*MediaQuery aplicado a Inicio*/
 
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        gap: 0;
+    }
+
     .contenedor_header {
         display: flex;
         flex-direction: row;
@@ -494,6 +501,8 @@ input:focus {
 
     .contenedor_foto {
         margin: 0;
+        display: flex;
+        justify-content: center;
     }
 
     .foto {
@@ -514,7 +523,7 @@ input:focus {
     }
 
     button{
-        width: 120px;
+        width: 110px;
     }
 
     .title > p{
