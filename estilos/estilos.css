@@ -18,7 +18,7 @@ html {
 .contenedor {
     display: flex;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 2%;
     gap: 20px;
 }
 
@@ -26,7 +26,6 @@ html {
     border-radius: 200px;
     width: 400px;
     height: 400px;
-    cursor: pointer;
     border: 15px solid rgb(58, 58, 58);
     object-fit: cover;
     display: grid;
@@ -128,6 +127,7 @@ button {
     background-color: rgb(70, 70, 70);
     color: white;
     border-color: white;
+    cursor: pointer;
 }
 
 button:focus {
@@ -163,7 +163,6 @@ aside {
 
 .footer_list {
     color: rgb(143, 143, 143);
-    margin-top: 1%;
 }
 
 .contenedorlist {
@@ -178,10 +177,6 @@ aside {
 .contenedorlist2 {
     display: flex;
     justify-content: flex-end;}
-    i{
-        padding-top: 5px;
-    }
-
 
 
 /*Css aplicado en pagina de Pefil*/
@@ -490,7 +485,7 @@ input:focus {
     .contenedor{
         display: flex;
         justify-content: center;
-        gap: 0;
+        gap: 2px;
     }
 
     .contenedor_header {
