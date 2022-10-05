@@ -441,18 +441,19 @@ input:focus {
         width: 100%;
     }
 
-    .contenedor_nav{
-        margin-right: 5%;
-        margin-top: 3%;
-        padding: 0;
-    }
-
     .contenedor_nav > a{ 
         font-size: 15px;
+        margin: 0;
+        padding: 0;
     }
 
     .contenedor_logo{
         display: flex;
+    }
+
+    .contenedor_logo > a{
+        padding: 0;
+        margin: 1%;
     }
 
     .contenedor_logo > p{
@@ -505,6 +506,19 @@ input:focus {
         margin: 0;
         justify-content: center;
         align-items: center;
+    }
+
+    .title > h1{
+        margin: 0;
+        padding: 0;
+    }
+
+    button{
+        width: 120px;
+    }
+
+    .title > p{
+        padding: 0;
     }
 
     h1 {
@@ -637,5 +651,33 @@ width: 100%;
     text-align: center;
 }
 
+.contenedor_lista > p{
+    display: block;
+}
+
+
+/*Mediaquery aplicado en pagina de Perfil*/
+
+.contenedor_perfil{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.contenedor_foto2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.estilo_aside{
+    display: block;
+}
+
+.estilo_aside > p{
+    display: block;
+}
 
 }
