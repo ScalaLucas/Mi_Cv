@@ -605,7 +605,11 @@ input:focus {
 }
 
 input{
-width: 100%;
+width: 300px;
+}
+
+textarea{
+    width: 300px;
 }
 
 /*Mediaquery aplicado en pagina de Educacion*/
