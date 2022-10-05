@@ -615,5 +615,27 @@ width: 100%;
 }
 
 
+/*Mediaquery aplicado en pagina de Experiencia*/
+
+.contenedor_experiencia{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.contenedor_foto3{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.contenedor_lista{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 
 }
