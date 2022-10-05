@@ -13,17 +13,30 @@
 
 <body>
     <header>
-        <div class="contenedor_logo">
-            <a href="./index.html"><img class="logo" src="./assets/logo.png" alt="logo"></a>
-            <p>Lucas Scala</p>
+
+    <nav class="nav">
+
+        <div class="nav__container">
+
+            <a href="./index.html" class="nav__logo">
+                <img src="./assets/logo.png" alt="logo" class="logo">
+            </a>
+
+            <label for="menu" class="nav__label">
+                <img src="./assets/menu.svg" class="nav__img">
+            </label>
+
+        <input type="checkbox" id="menu" class="nav__input">
+
+        <div class="nav__menu">
+            <a href="./index.html" class="nav__item">Inicio</a>
+            <a href="./paginas/perfil.html" class="nav__item">Perfil</a>
+            <a href="./paginas/experiencia.html" class="nav__item">Experiencia</a>
+            <a href="./paginas/educacion.html" class="nav__item">Educación</a>
+            <a href="./paginas/contacto.html" class="nav__item">Contacto</a>
         </div>
-        <div class="contenedor_nav">
-            <a href="./index.html">Inicio</a>
-            <a href="./paginas/perfil.html">Perfil</a>
-            <a href="./paginas/experiencia.html">Experiencia</a>
-            <a href="./paginas/educacion.html">Educación</a>
-            <a href="./paginas/contacto.html">Contacto</a>
         </div>
+    </nav>
     </header>
 
     <section class="contenedor">
@@ -55,14 +68,10 @@
     <section class="contenedor_objects">
         <div class="zona1">
             <i class="fa-solid fa-pen fa-2x"></i>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla impedit voluptate minima quos earum sunt
-                assumenda est, itaque, rerum praesentium voluptas perspiciatis inventore mollitia cumque et aut vero,
-                fuga amet?</p>
+            <p>En la actualidad estoy estudiando en la Universidad UADE (La Universidad Argentina de la Empresa) la carrera de Tecnicatura Universitaria en Desarrollo de Software</p>
             <div>
                 <i class="fa-solid fa-desktop fa-2x"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ullam rem omnis dicta ad adipisci
-                    quisquam fuga. Rerum accusamus corporis similique libero a, consequuntur, accusantium nulla ad ea
-                    atque architecto.</p>
+                <p>Además trabajo de forma remota, con un familiar en el armado de comptuadoras, tanto de su Hardware como de su Software. Y armado de componentes a gusto del cliente.</p>
             </div>
         </div>
         <div class="zona2">
@@ -72,9 +81,7 @@
                 sapiente explicabo.</p>
             <div>
                 <i class="fa-solid fa-lightbulb fa-2x"></i>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus neque, cumque est eum sit sunt
-                    expedita pariatur. Laudantium explicabo praesentium, quis voluptates perferendis mollitia, sint
-                    tempore sequi iste autem est!</p>
+                <p>En mis tiempos libres me gusta entrenar y leer sobre actividades que me ayudan a entender mas lenguajes de programación. Suelo ver bastantes videos de los diferentes tipos de lenguaje y sus beneficios.</p>
             </div>
 
         </div>
@@ -89,8 +96,7 @@
             <a href="https://github.com/ScalaLucas" target="_blank">Github</a>
             <a href="https://www.instagram.com/lucasscala_/" target="_blank">Instagram</a>
         </div>
-        <div class="contenedorlist2">
-            <p>2022 All rights reserved. LucasScala</p>
+        <div class="contenedorlist2"><p>2022 All rights reserved. LucasScala</p>
         </div>
     </div>
     </footer>
@@ -100,3 +106,9 @@
 </body>
 
 </html>
+
+
+ <!--<div class="nav__container">
+            <a href="./index.html"><img class="logo" src="./assets/logo.png" alt="logo"></a>
+            <p>Lucas Scala</p>
+        </div>-->
